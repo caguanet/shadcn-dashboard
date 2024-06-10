@@ -31,7 +31,7 @@ const items = [
 export default function Page() {
   return (
     <div>
-      <Accordion type="single" className="w-full max-w-2xl">
+      <Accordion type="single" className="w-full">
         {items.map((item) => (
           <AccordionItem value={item.id} key={item.id}>
             <AccordionTrigger>{item.question}</AccordionTrigger>
